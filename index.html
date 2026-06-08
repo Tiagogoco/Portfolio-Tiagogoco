@@ -1786,6 +1786,30 @@
         section.block {
           padding: 90px 0;
         }
+        #sobre-mi {
+          padding-top: 72px;
+        }
+        #sobre-mi .sec-head {
+          margin-bottom: 24px;
+        }
+        #sobre-mi .about {
+          gap: 24px;
+        }
+        #sobre-mi .about-portrait {
+          width: 100%;
+          max-width: none;
+          margin: 0;
+        }
+        #sobre-mi .about-img-wrap {
+          width: min(100%, 318px);
+          height: clamp(330px, 108vw, 430px);
+          aspect-ratio: auto;
+          margin: 0 auto;
+          border-radius: 14px;
+        }
+        #sobre-mi .about-img-wrap img {
+          object-position: center 8%;
+        }
         .tech-grid {
           grid-template-columns: 1fr;
         }
@@ -3179,9 +3203,9 @@
               <img
                 src="assets/retrato.webp"
                 alt="Tiago Goco"
-                width="1118"
-                height="1118"
-                loading="lazy"
+                width="1086"
+                height="1448"
+                loading="eager"
                 decoding="async"
               />
             </div>
