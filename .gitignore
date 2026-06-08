@@ -1,0 +1,26 @@
+.DS_Store
+.env
+.env.*
+.claude/
+
+node_modules/
+dist/
+build/
+.vercel/
+
+# Local source/backups not used by the deployed HTML
+assets/ball.png
+assets/bg-stars.png
+assets/bg2.png
+assets/bi.png
+assets/bolamiddle.png
+assets/dashboard-project.webp
+assets/deck-rankeo.webp
+assets/favicon.png
+assets/icon
+assets/imgs mis proyectos/
+assets/portrait.webp
+assets/retrato.png
+assets/rocket-hero.png
+assets/shot-piri.webp
+assets/shot-rankeo.webp
