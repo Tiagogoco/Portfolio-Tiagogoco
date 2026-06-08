@@ -25,7 +25,7 @@ El portafolio presenta:
 
 ```txt
 .
-├── Portafolio.html
+├── index.html
 ├── assets/
 │   ├── ai-orb.mp4
 │   ├── hero-loop.mp4
@@ -45,7 +45,7 @@ El portafolio presenta:
 
 ## Cómo Ejecutarlo Localmente
 
-Puedes abrir `Portafolio.html` directamente en el navegador.
+Puedes abrir `index.html` directamente en el navegador.
 
 También puedes servirlo con un servidor local:
 
@@ -56,12 +56,13 @@ python3 -m http.server 4173
 Luego abre:
 
 ```txt
-http://localhost:4173/Portafolio.html
+http://localhost:4173/
 ```
 
 ## Despliegue en Vercel
 
-Este proyecto no requiere build ni dependencias.
+Este proyecto no requiere build ni dependencias. El archivo principal es
+`index.html`, por lo que Vercel puede servir el sitio desde la raíz (`/`).
 
 Configuración recomendada en Vercel:
 
